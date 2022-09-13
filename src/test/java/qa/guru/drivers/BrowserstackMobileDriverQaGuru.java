@@ -11,7 +11,7 @@ import qa.guru.owner.BrowserstackProviderQaGuru;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-public class BrowserstackMobileDriver implements WebDriverProvider {
+public class BrowserstackMobileDriverQaGuru implements WebDriverProvider {
 
     @Override
     public WebDriver createDriver (Capabilities capabilities) {
